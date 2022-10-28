@@ -174,19 +174,13 @@ Route121_EventScript_RematchCristin::
 
 Route121_Text_OkayMoveOutToMtPyre:
 	.string "Okay!\n"
-	.string "We're to move out to Mt. Pyre!$"
+	.string "We're to move out to MT. PYRE!$"
 
-<<<<<<< HEAD
 Route121_Text_AheadLoomsMtPyre:
 	.string "Ahead looms MT. PYRE…\p"
-=======
-Route121_Text_AheadLoomsMtPyre: @ 81F607F
-	.string "Ahead looms Mt. Pyre…\p"
->>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "It is a natural monument to the spirits \n"
-	.string "of departed Pokémon…$"
+	.string "of departed POKéMON…$"
 
-<<<<<<< HEAD
 Route121_Text_MtPyrePierSign:
 	.string "MT. PYRE PIER\p"
 	.string "…The sign is old and worn out.\n"
@@ -195,14 +189,4 @@ Route121_Text_MtPyrePierSign:
 Route121_Text_SafariZoneSign:
 	.string "“Filled with rare POKéMON!”\n"
 	.string "SAFARI ZONE$"
-=======
-Route121_Text_MtPyrePierSign: @ 81F60D3
-	.string "Mt. Pyre Pier\p"
-	.string "…The sign is old and worn out.\n"
-	.string "The words are barely legible…$"
-
-Route121_Text_SafariZoneSign: @ 81F611E
-	.string "“Filled with rare Pokémon!”\n"
-	.string "Safari Zone$"
->>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 

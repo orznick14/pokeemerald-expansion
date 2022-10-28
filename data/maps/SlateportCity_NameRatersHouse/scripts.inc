@@ -61,24 +61,14 @@ SlateportCity_NameRatersHouse_EventScript_NewNameDifferent::
 	release
 	end
 
-<<<<<<< HEAD
 SlateportCity_NameRatersHouse_Text_PleasedToRateMonNickname:
 	.string "Hi, hi! I'm the NAME RATER!\n"
-=======
-SlateportCity_NameRatersHouse_Text_PleasedToRateMonNickname: @ 8209B8E
-	.string "Hi, hi! I'm the Name Rater!\n"
->>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "I'm the fortune-teller of names!\p"
 	.string "I shall be pleased to rate your\n"
-	.string "Pokémon's nickname.$"
+	.string "POKéMON's nickname.$"
 
-<<<<<<< HEAD
 SlateportCity_NameRatersHouse_Text_CritiqueWhichMonNickname:
 	.string "Which POKéMON's nickname should\n"
-=======
-SlateportCity_NameRatersHouse_Text_CritiqueWhichMonNickname: @ 8209BFF
-	.string "Which Pokémon's nickname should\n"
->>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "I critique?$"
 
 SlateportCity_NameRatersHouse_Text_FineNameSuggestBetterOne:
@@ -91,13 +81,8 @@ SlateportCity_NameRatersHouse_Text_WhatShallNewNameBe:
 	.string "Ah, good. Then, what shall the new\n"
 	.string "nickname be?$"
 
-<<<<<<< HEAD
 SlateportCity_NameRatersHouse_Text_MonShallBeKnownAsName:
 	.string "Done! From now on, this POKéMON\n"
-=======
-SlateportCity_NameRatersHouse_Text_MonShallBeKnownAsName: @ 8209CD4
-	.string "Done! From now on, this Pokémon\n"
->>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "shall be known as {STR_VAR_1}!\p"
 	.string "It is a better name than before!\n"
 	.string "How fortunate for you!$"
@@ -106,13 +91,8 @@ SlateportCity_NameRatersHouse_Text_DoVisitAgain:
 	.string "I see.\n"
 	.string "Do come visit again.$"
 
-<<<<<<< HEAD
 SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior:
 	.string "Done! From now on, this POKéMON\n"
-=======
-SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior: @ 8209D5E
-	.string "Done! From now on, this Pokémon\n"
->>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "shall be known as {STR_VAR_1}!\p"
 	.string "It looks no different from before,\n"
 	.string "and yet, this is vastly superior!\p"
@@ -127,5 +107,5 @@ SlateportCity_NameRatersHouse_Text_MagnificentName:
 
 SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg:
 	.string "Now, now.\n"
-	.string "That is merely an Egg!$"
+	.string "That is merely an EGG!$"
 

@@ -145,7 +145,6 @@ Route113_Text_FunWalkingThroughAsh:
 	.string "You can see where you walked--it's\n"
 	.string "really neat!$"
 
-<<<<<<< HEAD
 Route113_Text_RouteSign111:
 	.string "ROUTE 113\n"
 	.string "{RIGHT_ARROW} ROUTE 111$"
@@ -163,24 +162,5 @@ Route113_Text_TrainerTipsRegisterKeyItems:
 
 Route113_Text_GlassWorkshopSign:
 	.string "GLASS WORKSHOP\n"
-=======
-Route113_Text_RouteSign111: @ 81F2440
-	.string "Route 113\n"
-	.string "{RIGHT_ARROW} Route 111$"
-
-Route113_Text_RouteSignFallarbor: @ 81F2456
-	.string "Route 113\n"
-	.string "{LEFT_ARROW} Fallarbor Town$"
-
-Route113_Text_TrainerTipsRegisterKeyItems: @ 81F2471
-	.string "Trainer Tips\p"
-	.string "You may register one of the Key Items\n"
-	.string "in your Bag as Select.\p"
-	.string "Simply press Select to use\n"
-	.string "the registered item conveniently.$"
-
-Route113_Text_GlassWorkshopSign: @ 81F24F8
-	.string "Glass Workshop\n"
->>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "“Turning Volcanic Ash into Glass Items”$"
 

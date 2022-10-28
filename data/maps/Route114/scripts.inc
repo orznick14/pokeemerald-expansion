@@ -176,31 +176,19 @@ Route114_EventScript_Kai::
 	msgbox Route114_Text_KaiPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-<<<<<<< HEAD
 Route114_Text_AllMyMonDoesIsRoarTakeThis:
 	.string "All my POKéMON does is ROAR…\n"
-=======
-Route114_Text_AllMyMonDoesIsRoarTakeThis: @ 81F2809
-	.string "All my Pokémon does is Roar…\n"
->>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "No one dares to come near me…\p"
 	.string "Sigh… If you would, please take\n"
 	.string "this TM away…$"
 
-<<<<<<< HEAD
 Route114_Text_ExplainRoar:
 	.string "TM05 contains ROAR.\n"
 	.string "A ROAR sends POKéMON scurrying.$"
-=======
-Route114_Text_ExplainRoar: @ 81F2872
-	.string "TM05 contains Roar.\n"
-	.string "A Roar sends Pokémon scurrying.$"
->>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 
 Route114_Text_Poochyena:
 	.string "Bow! Bowwow!$"
 
-<<<<<<< HEAD
 Route114_Text_MeteorFallsSign:
 	.string "METEOR FALLS\n"
 	.string "RUSTBORO CITY THROUGH HERE$"
@@ -211,16 +199,4 @@ Route114_Text_FossilManiacsHouseSign:
 
 Route114_Text_LanettesHouse:
 	.string "LANETTE'S HOUSE$"
-=======
-Route114_Text_MeteorFallsSign: @ 81F28B3
-	.string "Meteor Falls\n"
-	.string "Rustboro City Through Here$"
-
-Route114_Text_FossilManiacsHouseSign: @ 81F28DB
-	.string "Fossil Maniac's House\n"
-	.string "“Fossils gratefully accepted!”$"
-
-Route114_Text_LanettesHouse: @ 81F2910
-	.string "Lanette's House$"
->>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 

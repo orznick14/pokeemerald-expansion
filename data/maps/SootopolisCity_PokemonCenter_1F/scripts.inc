@@ -45,7 +45,6 @@ SootopolisCity_PokemonCenter_1F_EventScript_WomanNoLegendaries::
 	release
 	end
 
-<<<<<<< HEAD
 SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn:
 	.string "WALLACE is rumored to be the toughest\n"
 	.string "TRAINER in the whole HOENN region.\p"
@@ -53,15 +52,6 @@ SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn:
 	.string "who taught WALLACE.\p"
 	.string "But the ELITE FOUR… They're said to be\n"
 	.string "even stronger than WALLACE's mentor.\p"
-=======
-SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn: @ 8226562
-	.string "Wallace is rumored to be the toughest\n"
-	.string "Trainer in the whole Hoenn region.\p"
-	.string "This town's Gym is led by the Trainer\n"
-	.string "who taught Wallace.\p"
-	.string "But the Elite Four… They're said to be\n"
-	.string "even stronger than Wallace's mentor.\p"
->>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "How strong could they be?$"
 
 SootopolisCity_PokemonCenter_1F_Text_EveryoneTakenRefuge:
@@ -73,15 +63,10 @@ SootopolisCity_PokemonCenter_1F_Text_EveryoneTakenRefuge:
 SootopolisCity_PokemonCenter_1F_Text_AlwaysBeFriendsWithPokemon:
 	.string "Whenever, wherever, and whatever\n"
 	.string "happens, I will always be friends with\l"
-	.string "Pokémon.\p"
-	.string "Because it's fun to be with Pokémon!$"
+	.string "POKéMON.\p"
+	.string "Because it's fun to be with POKéMON!$"
 
-<<<<<<< HEAD
 SootopolisCity_PokemonCenter_1F_Text_ArentPokemonOurFriends:
 	.string "Aren't POKéMON our friends?\p"
-=======
-SootopolisCity_PokemonCenter_1F_Text_ArentPokemonOurFriends: @ 822672F
-	.string "Aren't Pokémon our friends?\p"
->>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "Why are they going wild this way?$"
 

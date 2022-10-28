@@ -317,17 +317,12 @@ Route110_TrickHousePuzzle7_EventScript_Everett::
 Route110_TrickHousePuzzle7_EventScript_WroteSecretCodeLockOpened::
 	.string "{PLAYER} wrote down the secret code\n"
 	.string "on the door.\p"
-	.string "“Trick Master is huggable.”\n"
+	.string "“TRICK MASTER is huggable.”\n"
 	.string "… … … … … … … …\p"
 	.string "The lock clicked open!$"
 
-<<<<<<< HEAD
 Route110_TrickHousePuzzle7_Text_JoshuaIntro:
 	.string "The TRICK MASTER always vanishes\n"
-=======
-Route110_TrickHousePuzzle7_Text_JoshuaIntro: @ 826E481
-	.string "The Trick Master always vanishes\n"
->>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "like smoke. How does he do it?$"
 
 Route110_TrickHousePuzzle7_Text_JoshuaDefeat:
@@ -360,7 +355,7 @@ Route110_TrickHousePuzzle7_Text_AlexisDefeat:
 
 Route110_TrickHousePuzzle7_Text_AlexisPostBattle:
 	.string "You're solving all the puzzles in the\n"
-	.string "Trick House. That's the feeling I get.$"
+	.string "TRICK HOUSE. That's the feeling I get.$"
 
 Route110_TrickHousePuzzle7_Text_MarielaIntro:
 	.string "Nufufufu, here at last!\n"

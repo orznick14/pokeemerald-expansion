@@ -52,25 +52,14 @@ Route110_SeasideCyclingRoadSouthEntrance_EventScript_ClearCyclingRoad::
 	releaseall
 	end
 
-<<<<<<< HEAD
 Route110_SeasideCyclingRoadSouthEntrance_Text_GoAllOutOnCyclingRoad:
 	.string "On CYCLING ROAD, you can go all out\n"
-=======
-Route110_SeasideCyclingRoadSouthEntrance_Text_GoAllOutOnCyclingRoad: @ 826EC23
-	.string "On Cycling Road, you can go all out\n"
->>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "and cycle as fast as you'd like.\p"
 	.string "It feels great to go that fast, but try\n"
 	.string "not to crash into anyone!$"
 
-<<<<<<< HEAD
 Route110_SeasideCyclingRoadSouthEntrance_Text_TooDangerousToWalk:
 	.string "Sorry, you can't walk on CYCLING\n"
 	.string "ROAD. It's too dangerous.\p"
-=======
-Route110_SeasideCyclingRoadSouthEntrance_Text_TooDangerousToWalk: @ 826ECAA
-	.string "Sorry, you can't walk on Cycling\n"
-	.string "Road. It's too dangerous.\p"
->>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "Please come back with a BIKE.$"
 
