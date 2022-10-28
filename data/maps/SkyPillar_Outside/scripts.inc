@@ -142,14 +142,20 @@ SkyPillar_Outside_EventScript_ClosedDoor::
 SkyPillar_Outside_Text_DoorIsClosed:
 	.string "The door is closed.$"
 
+<<<<<<< HEAD
 SkyPillar_Outside_Text_OpenedDoorToSkyPillar:
 	.string "WALLACE: Oh, my, I'm terribly sorry!\p"
+=======
+SkyPillar_Outside_Text_OpenedDoorToSkyPillar: @ 8239416
+	.string "Wallace: Oh, my, I'm terribly sorry!\p"
+>>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "In my haste, I didn't notice that\n"
 	.string "I'd left you behind!\p"
 	.string "I've opened the locked door of\n"
-	.string "the SKY PILLAR.\p"
+	.string "the Sky Pillar.\p"
 	.string "{PLAYER}{KUN}, let's be on our way!$"
 
+<<<<<<< HEAD
 SkyPillar_Outside_Text_EarthquakeNotMomentToWaste:
 	.string "WALLACE: It's an earthquake!\p"
 	.string "There's not a moment to waste!\n"
@@ -161,12 +167,25 @@ SkyPillar_Outside_Text_SituationGettingWorse:
 
 SkyPillar_Outside_Text_GotToGoBackForSootopolis:
 	.string "WALLACE: This isn't good…\p"
+=======
+SkyPillar_Outside_Text_EarthquakeNotMomentToWaste: @ 82394BC
+	.string "Wallace: It's an earthquake!\p"
+	.string "There's not a moment to waste!\n"
+	.string "We've got to hurry!$"
+
+SkyPillar_Outside_Text_SituationGettingWorse: @ 823950C
+	.string "Wallace: Hmm…\n"
+	.string "The situation is getting worse…$"
+
+SkyPillar_Outside_Text_GotToGoBackForSootopolis: @ 823953A
+	.string "Wallace: This isn't good…\p"
+>>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "The weather distortion is spreading\n"
 	.string "even here…\p"
 	.string "{PLAYER}{KUN}.\p"
-	.string "RAYQUAZA should be farther up\n"
+	.string "Rayquaza should be farther up\n"
 	.string "from here.\p"
-	.string "I'm worried about SOOTOPOLIS.\n"
+	.string "I'm worried about Sootopolis.\n"
 	.string "I've got to go back.\p"
 	.string "Everything is in your hands now.\n"
 	.string "Don't fail us!$"

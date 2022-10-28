@@ -41,8 +41,14 @@ Route106_EventScript_Ned::
 	msgbox Route106_Text_NedPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+<<<<<<< HEAD
 Route106_Text_TrainerTips:
 	.string "TRAINER TIPS\p"
 	.string "Advice on catching POKéMON with a ROD:\n"
+=======
+Route106_Text_TrainerTips: @ 81EE53A
+	.string "Trainer Tips\p"
+	.string "Advice on catching Pokémon with a Rod:\n"
+>>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "Press the A Button if you get a bite.$"
 

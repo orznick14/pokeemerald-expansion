@@ -86,8 +86,13 @@ Route112_CableCarStation_Movement_ExitCableCar:
 	delay_16
 	step_end
 
+<<<<<<< HEAD
 Route112_CableCarStation_Text_CableCarReadyGetOn:
 	.string "The CABLE CAR is ready to go up.\n"
+=======
+Route112_CableCarStation_Text_CableCarReadyGetOn: @ 822AB85
+	.string "The Cable Car is ready to go up.\n"
+>>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 	.string "Would you like to be on it?$"
 
 Route112_CableCarStation_Text_StepThisWay:

@@ -99,6 +99,11 @@ Route124_EventScript_Isabella::
 	msgbox Route124_Text_IsabellaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+<<<<<<< HEAD
 Route124_Text_HuntersHouse:
 	.string "HUNTER'S HOUSE$"
+=======
+Route124_Text_HuntersHouse: @ 81F6739
+	.string "Hunter's House$"
+>>>>>>> 4d1bf9605eadf3149434efea17932b2dcfa12b24
 
