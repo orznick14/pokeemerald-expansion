@@ -2624,42 +2624,6 @@ static const struct BattleWindowText sTextOnWindowsInfo_Arena[] =
         .bgColor = TEXT_COLOR_WHITE,
         .shadowColor = TEXT_COLOR_LIGHT_GRAY,
     },
-    { // 24 "type" super-effective
-        .fillValue = PIXEL_FILL(0xF),
-        .fontId = FONT_SMALL_NARROW,
-        .x = 0,
-        .y = 1,
-        .letterSpacing = 0,
-        .lineSpacing = 0,
-        .speed = 0,
-        .fgColor = 7,
-        .bgColor = 15, //14
-        .shadowColor = 6, //5
-    },
-    { // 25 "type" not very effective
-        .fillValue = PIXEL_FILL(0xF),
-        .fontId = FONT_SMALL_NARROW,
-        .x = 0,
-        .y = 1,
-        .letterSpacing = 0,
-        .lineSpacing = 0,
-        .speed = 0,
-        .fgColor = 2,
-        .bgColor = 15,
-        .shadowColor = 3,
-    },
-    { // 26 "type" no effect
-        .fillValue = PIXEL_FILL(0xF),
-        .fontId = FONT_SMALL_NARROW,
-        .x = 0,
-        .y = 1,
-        .letterSpacing = 0,
-        .lineSpacing = 0,
-        .speed = 0,
-        .fgColor = 12,
-        .bgColor = 15,
-        .shadowColor = 11,
-    },
 };
 
 static const struct BattleWindowText *const sBattleTextOnWindowsInfo[] =
