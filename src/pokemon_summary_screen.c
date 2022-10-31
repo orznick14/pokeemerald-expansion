@@ -3482,12 +3482,8 @@ static void PrintRibbonCount(void)
 }
 static void BufferStat(u8 *dst, s8 natureMod, u32 stat, u32 strId, u32 n)
 {
-/*
-07 = light blue, 4 = grey, 2 = light grey, 3 = white, 05 = dark red, 06 = orange, 08 = dark blue/teal, 
-09 = pinkish red, 10= deep red, 11 light teal, 12 medium teal, 13 medium teal?, 15 black
-*/
-    static const u8 sTextNatureDown[] = _("{COLOR}{09}"); 
-    static const u8 sTextNatureUp[] = _("{COLOR}{12}");
+    static const u8 sTextNatureDown[] = _("{COLOR}{04}");
+    static const u8 sTextNatureUp[] = _("{COLOR}{06}");
     static const u8 sTextNatureNeutral[] = _("{COLOR}{01}");
     u8 *txtPtr;
 
@@ -3510,7 +3506,7 @@ static void BufferLeftColumnStats(void)
     const s8 *natureMod = gNatureStatTable[sMonSummaryScreen->summary.nature];
 
     DynamicPlaceholderTextUtil_Reset();
-
+    
     BufferStat(currentHPString, 0, sMonSummaryScreen->summary.currentHP, 0, 3);
     BufferStat(maxHPString, 0, sMonSummaryScreen->summary.maxHP, 1, 3);
     BufferStat(attackString, natureMod[STAT_ATK - 1], sMonSummaryScreen->summary.atk, 2, 7);
