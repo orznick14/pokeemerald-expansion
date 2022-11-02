@@ -2354,7 +2354,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
         .speed = 0,
         .fgColor = 6,
         .bgColor = 14,
-        .shadowColor = 5,
+        .shadowColor = 11,//5
     },
     { // 25 "type" not very effective
         .fillValue = PIXEL_FILL(0xE),
@@ -2366,7 +2366,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
         .speed = 0,
         .fgColor = 1,
         .bgColor = 14,
-        .shadowColor = 3,
+        .shadowColor = 11,//3
     },
     { // 26 "type" no effect
         .fillValue = PIXEL_FILL(0xE),
@@ -2376,7 +2376,7 @@ static const struct BattleWindowText sTextOnWindowsInfo_Normal[] =
         .letterSpacing = 0,
         .lineSpacing = 0,
         .speed = 0,
-        .fgColor = 11,
+        .fgColor = 2, //15 orig, 10 changes too i think
         .bgColor = 14,
         .shadowColor = 11,
     },
