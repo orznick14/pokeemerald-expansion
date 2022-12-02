@@ -14478,6 +14478,7 @@ static void Cmd_displaydexinfo(void)
     }
 }
 
+//change border of window in battle: https://www.pokecommunity.com/showthread.php?t=464745
 void HandleBattleWindow(u8 xStart, u8 yStart, u8 xEnd, u8 yEnd, u8 flags)
 {
     s32 destY, destX, bgId;

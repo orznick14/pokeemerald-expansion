@@ -129,7 +129,7 @@ const struct BgTemplate gBattleBgTemplates[] =
         .bg = 0,
         .charBaseIndex = 0,
         .mapBaseIndex = 24,
-        .screenSize = 2,
+        .screenSize = 2, //2 dont change this fucks up like everything
         .paletteMode = 0,
         .priority = 0,
         .baseTile = 0
@@ -165,6 +165,7 @@ const struct BgTemplate gBattleBgTemplates[] =
 
 static const struct WindowTemplate sStandardBattleWindowTemplates[] =
 {
+    //inner section of window, wild X appeared, battle messages. Outer window is separate. does not impact what will x do
     [B_WIN_MSG] = {
         .bg = 0,
         .tilemapLeft = 2,
@@ -174,20 +175,22 @@ static const struct WindowTemplate sStandardBattleWindowTemplates[] =
         .paletteNum = 0,
         .baseBlock = 0x0090,
     },
+    //inner section of what will x do, does not include outer window.
     [B_WIN_ACTION_PROMPT] = {
         .bg = 0,
         .tilemapLeft = 1,
         .tilemapTop = 35,
         .width = 14,
         .height = 4,
-        .paletteNum = 0,
-        .baseBlock = 0x01c0,
+        .paletteNum = 0,  //0
+        .baseBlock = 0x01c0, //0x01c0
     },
+    //this is the fight run window
     [B_WIN_ACTION_MENU] = {
         .bg = 0,
         .tilemapLeft = 17,
         .tilemapTop = 35,
-        .width = 12,
+        .width = 12, //this does not actually change it. try tilemap
         .height = 4,
         .paletteNum = 5,
         .baseBlock = 0x0190,
@@ -228,6 +231,7 @@ static const struct WindowTemplate sStandardBattleWindowTemplates[] =
         .paletteNum = 5,
         .baseBlock = 0x0338,
     },
+    //move split icon1
     [B_WIN_PP] = {
         .bg = 0,
         .tilemapLeft = 23,
@@ -238,7 +242,7 @@ static const struct WindowTemplate sStandardBattleWindowTemplates[] =
         .baseBlock = 0x0290,
     },
     
-    //move split icon
+    //move split icon2
     [B_WIN_DUMMY] = {
         .bg = 0,
         .tilemapLeft = 21,
@@ -248,6 +252,8 @@ static const struct WindowTemplate sStandardBattleWindowTemplates[] =
         .paletteNum = 10,
         .baseBlock = 0x0294,
     },
+
+
     [B_WIN_PP_REMAINING] = {
         .bg = 0,
         .tilemapLeft = 25,
