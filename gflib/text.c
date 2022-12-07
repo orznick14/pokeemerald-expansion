@@ -118,7 +118,7 @@ static const u8 sKeypadIconTiles[] = INCBIN_U8("graphics/fonts/keypad_icons.4bpp
 
 static const struct FontInfo sFontInfos[] =
 {
-    [FONT_SMALL] = {
+    [FONT_SMALL] = { //the place where fonts are set for battles are in the file battle_message.c ln:2387+
         .fontFunction = FontFunc_Small,
         .maxLetterWidth = 5,
         .maxLetterHeight = 12,
@@ -135,7 +135,7 @@ static const struct FontInfo sFontInfos[] =
         .letterSpacing = 0,
         .lineSpacing = 0,
         .fgColor = 2,
-        .bgColor = 1,
+        .bgColor = 1, //1 changes the background of text in the start menu, options window too but they have different palettes
         .shadowColor = 3,
     },
     [FONT_SHORT] = {

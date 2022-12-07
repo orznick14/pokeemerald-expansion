@@ -230,8 +230,8 @@
 #define EXT_CTRL_CODE_ENG                    0x16
 #define EXT_CTRL_CODE_PAUSE_MUSIC            0x17
 #define EXT_CTRL_CODE_RESUME_MUSIC           0x18
-
-#define TEXT_COLOR_TRANSPARENT  0x0
+//this is the palette index, the dynamic colors change between text_pal1-4, not sure what sets that
+#define TEXT_COLOR_TRANSPARENT  0x0 //115 205 164
 #define TEXT_COLOR_WHITE        0x1
 #define TEXT_COLOR_DARK_GRAY    0x2
 #define TEXT_COLOR_LIGHT_GRAY   0x3

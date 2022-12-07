@@ -104,7 +104,7 @@ struct FontInfo
     u8 letterSpacing;
     u8 lineSpacing;
     u8 unk:4;
-    u8 fgColor:4;
+    u8 fgColor:4; //the :4 means it is assigning 4 bits to this
     u8 bgColor:4;
     u8 shadowColor:4;
 };
